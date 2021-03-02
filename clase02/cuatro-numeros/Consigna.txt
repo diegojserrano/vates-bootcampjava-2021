@@ -1,0 +1,23 @@
+- Crear un programa que ingrese por teclado cuatro números enteros.
+Luego de la carga calcule e informe:
+    - Suma de los cuatro números.
+    - Producto de los dos primeros y producto de los dos últimos.
+    - Cociente entre los dos resultados del punto anterior.
+    - Si alguno de los números es múltiplo de 3.
+
+
+Pasos:
+    - Crear un proyecto nuevo de IntelliJ
+    - Agregar una clase
+    - A la clase agregar el método main
+    - Programar
+    - Ejecutarlo y probar con algunas combinaciones
+
+Casos de prueba:
+
+1 2 3 4: 10 2 12 0.1666666 Sí
+4 4 4 4: 16 16 16 1 No
+2 5 8 0: 15 10 0 Infinity Sí
+235 878 234 75: 1422 206330 17550 11.76 Sí
+
+
