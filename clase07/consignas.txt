@@ -1,0 +1,21 @@
+- En un banco hay dos tipos de cuentas: cajas de ahorro y cuentas corrientes. Programar una clase Cuenta y dos derivadas correspondientes a cada uno de los tipos de cuenta.
+La clase Cuenta debe poseer dos métodos para operar con las mismas llamados Depositar y Extraer.
+Las cajas de ahorro no permiten extracciones si el saldo no es suficiente, mientras que las cuentas corrientes poseen un atributo “acuerdo” que indica el máximo saldo negativo admisible. La clase cuenta debe poseer al menos los atributos número, nombre y saldo.
+
+- En una empresa hay tres tipos de empleados, cada uno de ellos con diferentes fórmulas para el cálculo de sus sueldos.
+   - Obrero: cobra un monto fijo por cada día trabajado igual al sueldo básico dividido en 22.
+   - Administrativo: cobra un monto fijo por mes más un 13 % si cumplió con el presentismo.
+   - Vendedor: cobra un monto fijo por mes más una comisión de 1 % del total de sus ventas.
+Se requiere representar esta situación con una o más clases aplicando polimorfismo.
+
+- Agregar una clase ListaEmpleados que permita almacenar un conjunto de empleados. La misma debe poseer un método para agregar un objeto de tipo Empleado.
+
+- Desarrollar un programa que lea un conjunto de empleados desde el archivo de texto empleados.csv y luego informe:
+   - El total a pagar en sueldo para cada tipo de empleados
+   - El total general.
+   - Todos los datos del empleado que menos cobra.	
+   - Promedio de sueldos de los obreros.
+Cada uno de los reportes debe estar calculado con un método en la clase ListaEmpleados.
+
+
+
