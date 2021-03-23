@@ -7,3 +7,32 @@ El programa debe permitir:
 - Calcular y mostrar el monto promedio de alquileres de las propiedades en donde vivan 2 inquilinos.
 - Calcular y mostrar la cantidad de casas de 3 habitaciones o más que posean garaje
 
+---------------------------------------------------------------
+
+En un hotel necesitan mantener la información relativa a las reservas de habitaciones en un software. De cada reserva se conocen los siguientes datos:
+- Número de habitación
+- Días reservados
+- Vigente (Verdadero o falso)
+
+Para las reservas de tipo Vacaciones se debe registrar además la cantidad de niños a alojar mientras que para las reservas de Negocios se debe registrar si el viaje es para asistir a una conferencia o no.
+
+Las tarifas del hotel dependen del tipo de reserva. Para los viajes de negocios se cobra $500 por día más $700 (por única vez) si el viaje es para asistir a una conferencia. En el caso de los viajes de vacaciones la tarifa diaria es de $600 más $100 por cada niño.
+
+Programar las clases necesarias para registrar las reservas y calcular: 
+Facturación total prevista. Para ello se debe sumar el total de las tarifas de todas las reservas vigentes.
+Cantidad de reservas de cada tipo.
+
+
+---------------------------------------------------------------
+
+
+Una biblioteca necesita un software que le permita registrar los datos de los libros que posee y de sus préstamos. De cada libro conoce su título, precio de reposición (para el caso de extravíos o daños) y estado (1: disponible, 2: prestado, 3: extraviado).
+
+Por otro lado, cada vez que un libro es prestado se registra el nombre del solicitante, la cantidad de días del préstamo y si fue devuelto o no. El conjunto de préstamos debe ser almacenado como un atributo del libro en cuestión.
+
+Se necesita entonces un programa en Java que solicite por teclado los datos de los libros y sus préstamos y luego de finalizada la carga informe:
+- Cantidad de libros en cada estado (tres totales)
+- Sumatoria del precio de reposición de todos los libros extraviados
+- Nombre de todos los solicitantes de un libro en particular identificado por su título
+- Promedio de veces que fueron prestados los libros de la biblioteca. Es decir, se debe responder a la consulta de cuántas veces es prestado en promedio cada libro
+
