@@ -1,0 +1,5 @@
+Llenar dos arraylist con 300 números enteros tomados al azar entre 1 y 1000.
+Generar una tercera lista con los números que se encuenten en ambas listas, preferentemente sin incluir repetidos en esta tercera lista.
+Medir el tiempo necesario para obtener la intersección.
+
+Reemplazar las listas por HashSet y repetir la medicion. Probar llenando las colecciones con 3000 y 30000 elementos.
