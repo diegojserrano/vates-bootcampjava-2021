@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Menu {
 
 
-    public void mostrar(Scanner sc, String []textos, Opcion []op) {
+    public void mostrar(Scanner sc, String []textos, Runnable []op) {
         int opcion = 0;
         do {
             System.out.println("Menu de opciones");
@@ -14,14 +14,14 @@ public class Menu {
             System.out.print("Ingrese la opción deseada: ");
             opcion = sc.nextInt();
 
-            if (opcion < op.length)
-                op[opcion-1].ejecutar();
+            if (opcion <= op.length)
+                op[opcion-1].run();
 
         } while (opcion != 9);
 
     }
 
-    public void mostrar(Scanner sc, String texto1, String texto2, Opcion op1, Opcion op2) {
+    public void mostrar(Scanner sc, String texto1, String texto2, Runnable op1, Runnable op2) {
         int opcion = 0;
         do {
             System.out.println("Menu de opciones");
@@ -33,10 +33,10 @@ public class Menu {
 
             switch (opcion) {
                 case 1:
-                    op1.ejecutar();
+                    op1.run();
                     break;
                 case 2:
-                    op2.ejecutar();
+                    op2.run();
                     break;
             }
 

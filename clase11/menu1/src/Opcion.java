@@ -2,7 +2,8 @@
 // Si una interfaz tiene un único método
 // Se la puede implementar en forma implícita con una
 // función anónima.
-@FunctionalInterface
+/*@FunctionalInterface
 public interface Opcion {
     void ejecutar();
 }
+*/

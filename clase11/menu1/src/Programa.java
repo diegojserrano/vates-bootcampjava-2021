@@ -10,7 +10,7 @@ public class Programa {
         Menu m = new Menu();
         m.mostrar(sc,
                 new String[]{ "Sumar", "Restar", "Multiplicar"} ,
-                new Opcion[]{
+                new Runnable[]{
                     () -> System.out.println(x + y),
                     () -> System.out.println(x - y),
                     () -> System.out.println(x * y)
