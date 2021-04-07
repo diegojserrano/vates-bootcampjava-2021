@@ -1,0 +1,30 @@
+Hacer un programa que reciba por teclado operaciones aritmeticas.
+Cada operacion tendra la forma:
+
+numero1 operacion numero2
+
+Los numeros (operandos) deben ser ingresados como double.
+Inicialmente las operaciones se indicaran con un número: 0- suma, 1- diferencia, 2- producto y 3- cociente.
+
+Ejemplo:
+
+3 2 5 representa la operacion 3 * 5 y debe mostrar como resultado 15.
+
+sc.nextDouble();
+sc.nextInt();
+sc.nextDouble();
+
+La carga finaliza cuando se ingresa operacion -1
+
+Agregar:
+
+operacion 4 = potencia
+operacion 5 = radicacion 
+
+
+Modificar el codigo de operacion para que se ingrese "+", "-", "*", "/", "^", "raiz"
+
+
+
+
+
