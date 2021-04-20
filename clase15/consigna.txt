@@ -1,0 +1,22 @@
+
+Programar un ABM de personas en memoria.
+
+Etapa 1:
+
+La API debe ofrecer endpoints para:
+GET /agregarpersona/nombre/apellido que agrega una persona y le asigna un codigo autonumerico
+GET /buscarpersona/codigo que buscar una persona por codigo y devuelve el objeto Persona o null
+GET /eliminarpersona/codigo que busca una persona por codigo y si la encuentra la eliminarpersona
+GET /listarpersonas/ que devuelve una coleccion de objetos persona
+
+Clase Persona:
+
+int codigo
+string nombre
+string apellido
+int edad
+
+Etapa 2:
+
+Agregar dos endpoints con verbo POST, uno que reciba los datos en la URI (con @PathVariable) y otra que los reciba como un JSON en el body (con @RequestBody)
+
