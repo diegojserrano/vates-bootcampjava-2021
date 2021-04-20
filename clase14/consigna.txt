@@ -1,0 +1,16 @@
+Crear un sitio nuevo (http://start.spring.io) para exponer dos servicios diferentes:
+- ABM de números: en http://localhost:8080/numeros
+    - GET /agregar/{nuevoNumero}
+    - GET /listar
+    - GET /buscar/{numero}
+    - GET /eliminar/{numero}
+    
+Al mismo sitio agregarle un ABM de personas en http://localhost:8080/personas.
+
+    - GET /agregar/{documento}/{nombre}/{apellido}
+    - GET /listar
+    - GET /buscar/{documento}
+    - GET /eliminar/{documento}
+    
+Programar la lógica de negocio en una clase GestorPersonas.
+
