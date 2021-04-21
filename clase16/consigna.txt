@@ -1,0 +1,4 @@
+
+Programar un ABM de personas en memoria.
+
+Modificar la implementación de la clase 15 para que los endpoints estén bien definidos utilizando correctamente los verbos GET, POST y DELETE y que las URI identifiquen recursos en lugar de acciones.
