@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "fd59396b-5bbe-4c34-a34c-0ab3e00b56a7",
+		"name": "Autores Vates",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Agregar autor",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"6\",\n    \"nombre\": \"Horacio Sánchez\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/autor/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"autor",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar autor",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"6\",\n    \"nombre\": \"Horacio Sánchez\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/autor/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"autor",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar autores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar autores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar un autor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
